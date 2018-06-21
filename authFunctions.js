@@ -41,5 +41,5 @@ const verifyToken = (req, res, next) => {
 }
 
 module.exports = {
-  makeToken
+  makeToken, verifyToken
 }
